@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Trova la località</string>
+
+    <string name="search_topbar">Cerca..</string>
+    <string name="choice_from_album">Scegli dalla galleria</string>
+    <string name="settings">Impostazioni</string>
+    <string name="favourites">Preferiti</string>
+    <string name="not_available">Non disponibile</string>
+    <string name="item_deleted">Elemento cancellato correttamente!</string>
+    <string name="item_saved">Elemento salvato correttamente!</string>
+    <string name="share_venue">Condividi posto</string>
+    <string name="photo_saved">Foto salvata correttamente!</string>
+    <string name="choice_venue">Fai la tua scelta</string>
+    <string name="no_internet_available">Nessuna connessione a Internet, controlla la connessione e riprova</string>
+    <string name="no_elements_found">Nessun elemento trovato</string>
+    <string name="content_description">Immagine</string>
+</resources>
