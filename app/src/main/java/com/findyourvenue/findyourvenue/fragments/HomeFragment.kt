@@ -515,9 +515,8 @@ class HomeFragment : Fragment(),OnMapReadyCallback{
         AsyncTask<String?, String?, String?>() {
 
 
-        private var url =
-            URL("https://api.foursquare.com/v2/venues/search?ll=${latLng.latitude},${latLng.longitude}&radius=${distance.toInt()}&limit=100&client_id=LILWFQDA3UBIPFWJWB2MQDCOO0FUN0RXM1LVLB5UHC04A3QN&client_secret=DIQYXL3IDNYYIRR0BQBNL35XLR3LRPGAWQZB2YIMZRI4ZAYV&v=20200430")
-
+        //private var url 
+        
         override fun onPreExecute() {
             progressBar.visibility = View.VISIBLE
             noElements.visibility = View.INVISIBLE
