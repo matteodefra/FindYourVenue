@@ -394,9 +394,7 @@ class ActivityVenue : AppCompatActivity() {
     inner class LoadRealPosition(var id : String?) :
         AsyncTask<String?, String?, String?>(){
 
-        private var url =
-            URL("https://api.foursquare.com/v2/venues/$id?client_id=LILWFQDA3UBIPFWJWB2MQDCOO0FUN0RXM1LVLB5UHC04A3QN&client_secret=DIQYXL3IDNYYIRR0BQBNL35XLR3LRPGAWQZB2YIMZRI4ZAYV&v=20200430")
-
+        //private var url 
 
         override fun doInBackground(vararg params: String?): String? {
             val httpClient = url.openConnection() as HttpURLConnection
