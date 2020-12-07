@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/search"-->
+<!--        android:icon="@drawable/ic_search_black_24dp"-->
+<!--        android:title="@string/search_topbar"-->
+<!--        app:showAsAction="always"-->
+<!--        android:queryHint="Search here"-->
+<!--        app:actionViewClass="androidx.appcompat.widget.SearchView"/>-->
+
+    <item
+        android:id="@+id/favourites"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/favourites"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="@string/choice_from_album"
+        android:icon="@drawable/ic_image_black_24dp"
+        app:showAsAction="ifRoom"
+        android:id="@+id/choice_album"/>
+
+</menu>
