@@ -13,3 +13,4 @@ localization and will ask the user to activate GPS. The data about position
 is stored only on the *SharedPreferences*, so user will not have to worry
 about privacy issue. The flow of the application is explained in the following
 simple schema:
+![alt text](http://github.com/matteodefra/findyourvenue/blob/assets/schema.png)
